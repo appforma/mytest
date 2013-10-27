@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mytest</title>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+	<script type="text/javascript" src="http://192.168.1.102:3000/maverick.js"></script>
+  <script type="text/javascript">
+    if (typeof(Maverick) !== "undefined") {
+      Maverick.init({
+        tabColor: "black",
+        acc_hash: "f1ec7ee7d2719555ba6d428fee62837a"
+      });
+    }
+  </script>
+
+</body>
+</html>

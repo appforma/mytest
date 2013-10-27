@@ -1,0 +1,82 @@
+#maverick_tab {
+  cursor:pointer;
+  height: 100px;
+  overflow:hidden;
+  position: fixed;
+  text-indent:-5000px;
+  top: 23%;
+  width: 120px;
+  z-index: 10000;
+	background-image: url(http://www.riad-atika.com/meknes/wp-content/uploads/2012/02/Promotion_cheville_a_frapper_scie_cloche.gif);
+	background-size: 111px 93px;
+	background-repeat: no-repeat;
+	background-position: center;
+ }
+
+#maverick_scrim {
+	left: 0;
+	position: absolute;
+	opacity: 0.42;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	background: black;
+	height: 100%;
+}
+
+#maverick_overlay {
+ 	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 90000;
+}
+
+#maverick_body {
+	height: 600px;
+}
+
+#maverick_modal {
+	position: fixed;
+	top: 10%;
+	left: 44%;
+	z-index: 900000;
+	width: 780px;
+	height: 630px;
+	margin-left: -280px;
+	background-color: white;
+	border: 1px solid #999;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding-box;
+	background-clip: padding-box;
+	outline: none;
+	opacity: 1;
+}
+
+#maverick_iframe {
+	width: 100%;
+	height: 100%;
+}
+
+#maverick_iframe body {
+	margin-top: 0;
+}
+
+#maverick_close {
+	position: absolute;
+	top: -10px;
+	right: -20px;
+}
+
+#maverick_header {
+	position: relative;
+	min-height: 20px;
+}
