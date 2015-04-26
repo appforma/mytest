@@ -83,10 +83,9 @@
   }
 
   function set_resources_links() {
-    // domain = 'www.appforma.com';
-    domain = '192.168.1.12:3005';
+    domain = 'c66stage.appforma.com';
     server_url = '//' + domain + '/external/accounts/embed_show?embed_hash=' + settings.acc_hash;
-    css_url = '//192.168.1.12:3333/maverick.embed.css';
+    css_url = 'https://s3.amazonaws.com/appforma_static/embed/maverick.embed.css';
     css_id = 'maverick_css_holder';
   }
 
